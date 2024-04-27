@@ -1,3 +1,7 @@
+confirm("Эта хуйня создана для экстрасенсов!!!, все равно это нахуй никто не читает, а кто прочитал - реальный пацан")
+
+
+
 // Генерация случайного числа в диапазоне от min до max
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -27,6 +31,10 @@ function checkMatch() {
     document.getElementById('result').innerText = result;
 }
 
+function reset() {
+    location.reload();
+}
+
 function checkMatchResult(actualScore, predictedScore, actualOutcome, predictedOutcome) {
     if (actualScore === predictedScore && actualOutcome === predictedOutcome) {
         return "Счёт был угадан верно!";
@@ -36,4 +44,6 @@ function checkMatchResult(actualScore, predictedScore, actualOutcome, predictedO
         return "Ни счёта, ни исхода не угадали";
     }
 }
+
+
 
