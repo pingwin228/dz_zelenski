@@ -1,0 +1,444 @@
+body{
+
+    max-width: 1920px;
+    max-height: 1080px;
+    overflow: hidden;
+
+}
+
+header{
+
+    display: flex;
+    width: 1920px;
+    min-height: 50px;
+    height: 100px;
+    margin-left: -8px;
+    margin-top: -8px;
+
+}
+
+.logo img{
+
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 39px;
+
+}
+
+.logo{
+
+    display: inline;
+
+}
+
+button{
+
+    background-color: black;
+    width: 124px;
+    height: 48px;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+
+}
+
+button:hover {
+    box-shadow: 0 0 30px #9718ff; 
+    transform: scale(1.05); 
+}
+
+.image-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-image: url('/image/logo1.png');
+    background-size: cover;
+    display: inline;
+    margin-top: 29px;
+    margin-left: 39px;
+  }
+
+.button1{
+
+    display: inline;
+    margin-left: 55px;
+    margin-top: 26px;
+
+}
+
+.button2{
+
+    display: inline;
+    margin-left: 39px;
+    text-align: center;
+
+}
+
+.button2 button{
+
+    background-color: white;
+    color: black;
+    border: 0px;
+    max-width: 100px;
+    height: 24px;
+    margin-top: 36px;
+
+}
+
+.button3{
+
+    display: inline;
+
+}
+
+.button3 button{
+
+    background-color: white;
+    color: black;
+    border: 0px;
+    max-width: 100px;
+    max-height: 24px;
+    margin-top: 36px;
+    margin-left: 40px;
+
+}
+
+input{
+
+    width: 1070px;
+    height: 44px;
+    margin-top: 25px;
+    margin-left: 40px;
+    background-color: rgba(128, 128, 128, 0.671);
+    border-radius: 25px;
+    border: 0px;
+    padding-left: 56px;
+
+}
+
+.bell img{
+
+    width: 34px;
+    height: 34px;  
+    margin-left: -8px;
+    margin-top: -3px;
+
+}
+
+.bell button{
+
+    width: 34px;
+    height: 34px;
+    margin-left: 19px;
+    margin-top: 33px;
+
+}
+
+.message img{
+
+    width: 34px;
+    height: 34px;
+    margin-left: -8px;
+    margin-top: -3px;
+
+}
+
+.message button{
+
+    width: 34px;
+    height: 34px;
+    margin-left: 19px;
+    margin-top: 33px;
+
+}
+
+.profile{
+
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    background-image: url(/image/profile.jpg);
+    border-radius: 25px;
+
+}
+
+.arrow{
+
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    margin-top: 38px;
+    position: relative;
+
+}
+
+.arrow img{
+
+    width: 24px;
+    height: 24px;
+    margin-left: -8px;
+    margin-top: -3px;
+
+}
+
+.arrow button{
+
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+
+}
+
+.popup {
+
+    display: none;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -55px;
+    transform: translateX(-50%);
+    background-color: #c79898;
+    border: 1px solid #ccc;
+    width: 160px;
+    height: 260px;
+    border-radius: 15px;
+    text-align: left;
+
+}
+
+button.popupButton1{
+
+    width: 160px;
+    height: 30px;
+    margin-top: 46px;
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 0px;
+    font-size: 12px;
+
+}
+
+button.popupButton2{
+
+    width: 160px;
+    height: 30px;
+    margin-top: 1px;
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 0px;
+    font-size: 12px;
+
+}
+
+button.popupButton3{
+
+    width: 160px;
+    height: 30px;
+    margin-top: 1px;
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 0px;
+    font-size: 12px;
+
+}
+
+button.popupButton4{
+
+    width: 160px;
+    height: 30px;
+    margin-top: 1px;
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 0px;
+    font-size: 12px;
+
+}
+
+button.popupButton5{
+
+    width: 160px;
+    height: 30px;
+    margin-top: 1px;
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 0px;
+    font-size: 12px;
+
+}
+
+main{
+    width: 1715px;
+    height: 758px;
+    margin: auto;
+    margin-top: 68px;
+}
+
+.blocks{
+    display: flex;
+    height: 141px;
+}
+
+.block-1{
+    width: 300px;
+    height: 141px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    display: inline;
+    background-image: url('/img/dota.jpeg');
+    background-size: 100%;
+    background-position: 50%;
+}
+
+.block-2{
+    width: 300px;
+    height: 141px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    margin-left: 67px;
+    display: inline;
+    background-image: url('/img/steam.jpg');
+    background-size: 100%;
+    background-position: 50%;
+}
+
+.block-3{
+    width: 247px;
+    height: 141px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    margin-left: 67px;
+    display: inline;
+    background-image: url('/img/valve.jpg');
+    background-size: 100%;
+    background-position: 50%;
+}
+
+.block-4{
+    width: 300px;
+    height: 141px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    margin-left: 67px;
+    display: inline;
+    background-image: url('/img/source-2.jpg');
+    background-size: 100%;
+    background-position: 50%;
+}
+
+.block-5{
+    width: 300px;
+    height: 141px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    margin-left: 67px;
+    display: inline;
+    background-image: url('/img/cs.png');
+    background-size: 100%;
+    background-position: 50%;
+}
+
+.cards{
+    display: inline;
+}
+
+.card1{
+    width: 723px;
+    height: 417px;
+    background-color: #AD3434;
+    margin-left: 60px;
+    margin-top: 68px;
+    border-radius: 40px;
+}
+
+.title1{
+    margin-left: 49px;
+    padding-top: 24px;
+    color: white;
+}
+
+.title1 h3{
+    font-size: 25px;
+}
+
+.text1{
+    width: 614px;
+    height: 237px;
+    word-wrap: break-word;
+    margin-left: 49px;
+    margin-top: 45px;
+    color: white;
+}
+
+.text1 p{
+    font-size: 20px;
+}
+
+.card2{
+    width: 669px;
+    height: 386px;
+    background-color: #AD3434;
+    margin-left: 1020px;
+    margin-top: -255px;
+    border-radius: 40px;
+}
+
+.title2{
+    margin-left: 31px;
+    padding-top: 21px;
+    color: white;
+
+}
+
+.title2 h3{
+    font-size: 25px;
+}
+
+.doptext{
+    color: white;
+    margin-left: 66px;
+    margin-top: 17px;
+}
+
+.doptext{
+    font-size: 20px;
+}
+
+.text2{
+    width: 614px;
+    height: 218px;
+    word-wrap: break-word;
+    margin-left: 31px;
+    margin-top: 23px;
+    color: white;
+}
+
+.text2 p{
+    font-size: 20px;
+}
+
+footer{
+    width: 1920px;
+    height: 75px;
+    margin-left: -8px;
+}
+
+.teg{
+    display: flex;
+}
+
+.teg h1{
+    margin-left: 50% ;
+    color: #8A8A8A;
+    font-size: 25px;
+}
+
